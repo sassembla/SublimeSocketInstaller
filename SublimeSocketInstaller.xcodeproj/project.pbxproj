@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13853866175DA88200EA36F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13853865175DA88200EA36F8 /* Cocoa.framework */; };
+		13853870175DA88200EA36F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1385386E175DA88200EA36F8 /* InfoPlist.strings */; };
+		13853872175DA88200EA36F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13853871175DA88200EA36F8 /* main.m */; };
+		13853876175DA88200EA36F8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 13853874175DA88200EA36F8 /* Credits.rtf */; };
+		13853879175DA88200EA36F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13853878175DA88200EA36F8 /* AppDelegate.m */; };
+		1385387C175DA88200EA36F8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1385387A175DA88200EA36F8 /* MainMenu.xib */; };
+		13853884175DA88200EA36F8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13853883175DA88200EA36F8 /* SenTestingKit.framework */; };
+		13853885175DA88200EA36F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13853865175DA88200EA36F8 /* Cocoa.framework */; };
+		1385388D175DA88200EA36F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1385388B175DA88200EA36F8 /* InfoPlist.strings */; };
+		13853890175DA88200EA36F8 /* SublimeSocketInstallerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1385388F175DA88200EA36F8 /* SublimeSocketInstallerTests.m */; };
+		1385389A175DAB8500EA36F8 /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 13853899175DAB8500EA36F8 /* icon2.png */; };
+		1385389C175DAB8A00EA36F8 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1385389B175DAB8A00EA36F8 /* icon3.png */; };
+		1385389E175DAC6E00EA36F8 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 1385389D175DAC6E00EA36F8 /* arrow.png */; };
+		138538A0175DAD0500EA36F8 /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = 1385389F175DAD0500EA36F8 /* Folder.png */; };
+		138538A2175DBA8D00EA36F8 /* greenPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 138538A1175DBA8D00EA36F8 /* greenPoint.png */; };
+		138538A6175DC7B800EA36F8 /* KSMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 138538A5175DC7B800EA36F8 /* KSMessenger.m */; };
+		138538A8175DD8BD00EA36F8 /* redPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = 138538A7175DD8BD00EA36F8 /* redPoint.png */; };
+		138538C2175DEA9900EA36F8 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 138538C1175DEA9900EA36F8 /* Icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13853886175DA88200EA36F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1385385A175DA88200EA36F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13853861175DA88200EA36F8;
+			remoteInfo = SublimeSocketInstaller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13853862175DA88200EA36F8 /* SublimeSocketInstaller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SublimeSocketInstaller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13853865175DA88200EA36F8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		13853868175DA88200EA36F8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		13853869175DA88200EA36F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1385386A175DA88200EA36F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1385386D175DA88200EA36F8 /* SublimeSocketInstaller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublimeSocketInstaller-Info.plist"; sourceTree = "<group>"; };
+		1385386F175DA88200EA36F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13853871175DA88200EA36F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13853873175DA88200EA36F8 /* SublimeSocketInstaller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SublimeSocketInstaller-Prefix.pch"; sourceTree = "<group>"; };
+		13853875175DA88200EA36F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		13853877175DA88200EA36F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13853878175DA88200EA36F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1385387B175DA88200EA36F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		13853882175DA88200EA36F8 /* SublimeSocketInstallerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SublimeSocketInstallerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13853883175DA88200EA36F8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1385388A175DA88200EA36F8 /* SublimeSocketInstallerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublimeSocketInstallerTests-Info.plist"; sourceTree = "<group>"; };
+		1385388C175DA88200EA36F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1385388E175DA88200EA36F8 /* SublimeSocketInstallerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SublimeSocketInstallerTests.h; sourceTree = "<group>"; };
+		1385388F175DA88200EA36F8 /* SublimeSocketInstallerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SublimeSocketInstallerTests.m; sourceTree = "<group>"; };
+		13853899175DAB8500EA36F8 /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2.png; sourceTree = "<group>"; };
+		1385389B175DAB8A00EA36F8 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
+		1385389D175DAC6E00EA36F8 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		1385389F175DAD0500EA36F8 /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
+		138538A1175DBA8D00EA36F8 /* greenPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenPoint.png; sourceTree = "<group>"; };
+		138538A4175DC7B800EA36F8 /* KSMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSMessenger.h; sourceTree = "<group>"; };
+		138538A5175DC7B800EA36F8 /* KSMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSMessenger.m; sourceTree = "<group>"; };
+		138538A7175DD8BD00EA36F8 /* redPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redPoint.png; sourceTree = "<group>"; };
+		138538AA175DE24E00EA36F8 /* Default.sublime-commands */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Default.sublime-commands"; sourceTree = "<group>"; };
+		138538AB175DE24E00EA36F8 /* OpenPreference.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = OpenPreference.py; sourceTree = "<group>"; };
+		138538AC175DE24E00EA36F8 /* PythonSwitch.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = PythonSwitch.py; sourceTree = "<group>"; };
+		138538AD175DE24E00EA36F8 /* SublimeSocket.sublime-settings */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SublimeSocket.sublime-settings"; sourceTree = "<group>"; };
+		138538AE175DE24E00EA36F8 /* SublimeSocketAPI.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeSocketAPI.py; sourceTree = "<group>"; };
+		138538AF175DE24E00EA36F8 /* SublimeSocketAPISettings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeSocketAPISettings.py; sourceTree = "<group>"; };
+		138538B0175DE24E00EA36F8 /* SublimeSocketHandle.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeSocketHandle.py; sourceTree = "<group>"; };
+		138538B1175DE24E00EA36F8 /* SublimeWSClient.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeWSClient.py; sourceTree = "<group>"; };
+		138538B2175DE24E00EA36F8 /* SublimeWSController.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeWSController.py; sourceTree = "<group>"; };
+		138538B3175DE24E00EA36F8 /* SublimeWSDecoder.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeWSDecoder.py; sourceTree = "<group>"; };
+		138538B4175DE24E00EA36F8 /* SublimeWSEncoder.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeWSEncoder.py; sourceTree = "<group>"; };
+		138538B5175DE24E00EA36F8 /* SublimeWSServer.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeWSServer.py; sourceTree = "<group>"; };
+		138538B6175DE24E00EA36F8 /* SublimeWSSettings.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = SublimeWSSettings.py; sourceTree = "<group>"; };
+		138538B9175DE24E00EA36F8 /* MacNotifier.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = MacNotifier.app; sourceTree = "<group>"; };
+		138538BA175DE24E00EA36F8 /* MacNotifier.app.meta */ = {isa = PBXFileReference; lastKnownFileType = text; path = MacNotifier.app.meta; sourceTree = "<group>"; };
+		138538BB175DE24E00EA36F8 /* MacNotifier.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MacNotifier.sh; sourceTree = "<group>"; };
+		138538BC175DE24E00EA36F8 /* MacNotifier.sh.meta */ = {isa = PBXFileReference; lastKnownFileType = text; path = MacNotifier.sh.meta; sourceTree = "<group>"; };
+		138538BD175DE24E00EA36F8 /* notification.meta */ = {isa = PBXFileReference; lastKnownFileType = text; path = notification.meta; sourceTree = "<group>"; };
+		138538C1175DEA9900EA36F8 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1385385F175DA88200EA36F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13853866175DA88200EA36F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1385387E175DA88200EA36F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13853884175DA88200EA36F8 /* SenTestingKit.framework in Frameworks */,
+				13853885175DA88200EA36F8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13853859175DA88200EA36F8 = {
+			isa = PBXGroup;
+			children = (
+				138538C1175DEA9900EA36F8 /* Icon.icns */,
+				138538A9175DE24E00EA36F8 /* SublimeSocket */,
+				138538A7175DD8BD00EA36F8 /* redPoint.png */,
+				138538A3175DC7B800EA36F8 /* KSMessenger */,
+				138538A1175DBA8D00EA36F8 /* greenPoint.png */,
+				1385389F175DAD0500EA36F8 /* Folder.png */,
+				1385389D175DAC6E00EA36F8 /* arrow.png */,
+				1385389B175DAB8A00EA36F8 /* icon3.png */,
+				13853899175DAB8500EA36F8 /* icon2.png */,
+				1385386B175DA88200EA36F8 /* SublimeSocketInstaller */,
+				13853888175DA88200EA36F8 /* SublimeSocketInstallerTests */,
+				13853864175DA88200EA36F8 /* Frameworks */,
+				13853863175DA88200EA36F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13853863175DA88200EA36F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13853862175DA88200EA36F8 /* SublimeSocketInstaller.app */,
+				13853882175DA88200EA36F8 /* SublimeSocketInstallerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13853864175DA88200EA36F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13853865175DA88200EA36F8 /* Cocoa.framework */,
+				13853883175DA88200EA36F8 /* SenTestingKit.framework */,
+				13853867175DA88200EA36F8 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13853867175DA88200EA36F8 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13853868175DA88200EA36F8 /* AppKit.framework */,
+				13853869175DA88200EA36F8 /* CoreData.framework */,
+				1385386A175DA88200EA36F8 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1385386B175DA88200EA36F8 /* SublimeSocketInstaller */ = {
+			isa = PBXGroup;
+			children = (
+				13853877175DA88200EA36F8 /* AppDelegate.h */,
+				13853878175DA88200EA36F8 /* AppDelegate.m */,
+				1385387A175DA88200EA36F8 /* MainMenu.xib */,
+				1385386C175DA88200EA36F8 /* Supporting Files */,
+			);
+			path = SublimeSocketInstaller;
+			sourceTree = "<group>";
+		};
+		1385386C175DA88200EA36F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1385386D175DA88200EA36F8 /* SublimeSocketInstaller-Info.plist */,
+				1385386E175DA88200EA36F8 /* InfoPlist.strings */,
+				13853871175DA88200EA36F8 /* main.m */,
+				13853873175DA88200EA36F8 /* SublimeSocketInstaller-Prefix.pch */,
+				13853874175DA88200EA36F8 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13853888175DA88200EA36F8 /* SublimeSocketInstallerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1385388E175DA88200EA36F8 /* SublimeSocketInstallerTests.h */,
+				1385388F175DA88200EA36F8 /* SublimeSocketInstallerTests.m */,
+				13853889175DA88200EA36F8 /* Supporting Files */,
+			);
+			path = SublimeSocketInstallerTests;
+			sourceTree = "<group>";
+		};
+		13853889175DA88200EA36F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1385388A175DA88200EA36F8 /* SublimeSocketInstallerTests-Info.plist */,
+				1385388B175DA88200EA36F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		138538A3175DC7B800EA36F8 /* KSMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				138538A4175DC7B800EA36F8 /* KSMessenger.h */,
+				138538A5175DC7B800EA36F8 /* KSMessenger.m */,
+			);
+			path = KSMessenger;
+			sourceTree = "<group>";
+		};
+		138538A9175DE24E00EA36F8 /* SublimeSocket */ = {
+			isa = PBXGroup;
+			children = (
+				138538AA175DE24E00EA36F8 /* Default.sublime-commands */,
+				138538AB175DE24E00EA36F8 /* OpenPreference.py */,
+				138538AC175DE24E00EA36F8 /* PythonSwitch.py */,
+				138538AD175DE24E00EA36F8 /* SublimeSocket.sublime-settings */,
+				138538AE175DE24E00EA36F8 /* SublimeSocketAPI.py */,
+				138538AF175DE24E00EA36F8 /* SublimeSocketAPISettings.py */,
+				138538B0175DE24E00EA36F8 /* SublimeSocketHandle.py */,
+				138538B1175DE24E00EA36F8 /* SublimeWSClient.py */,
+				138538B2175DE24E00EA36F8 /* SublimeWSController.py */,
+				138538B3175DE24E00EA36F8 /* SublimeWSDecoder.py */,
+				138538B4175DE24E00EA36F8 /* SublimeWSEncoder.py */,
+				138538B5175DE24E00EA36F8 /* SublimeWSServer.py */,
+				138538B6175DE24E00EA36F8 /* SublimeWSSettings.py */,
+				138538B7175DE24E00EA36F8 /* tool */,
+			);
+			path = SublimeSocket;
+			sourceTree = "<group>";
+		};
+		138538B7175DE24E00EA36F8 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				138538B8175DE24E00EA36F8 /* notification */,
+				138538BD175DE24E00EA36F8 /* notification.meta */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		138538B8175DE24E00EA36F8 /* notification */ = {
+			isa = PBXGroup;
+			children = (
+				138538B9175DE24E00EA36F8 /* MacNotifier.app */,
+				138538BA175DE24E00EA36F8 /* MacNotifier.app.meta */,
+				138538BB175DE24E00EA36F8 /* MacNotifier.sh */,
+				138538BC175DE24E00EA36F8 /* MacNotifier.sh.meta */,
+			);
+			path = notification;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13853861175DA88200EA36F8 /* SublimeSocketInstaller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13853893175DA88200EA36F8 /* Build configuration list for PBXNativeTarget "SublimeSocketInstaller" */;
+			buildPhases = (
+				1385385E175DA88200EA36F8 /* Sources */,
+				1385385F175DA88200EA36F8 /* Frameworks */,
+				138538BE175DE25E00EA36F8 /* ShellScript */,
+				13853860175DA88200EA36F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SublimeSocketInstaller;
+			productName = SublimeSocketInstaller;
+			productReference = 13853862175DA88200EA36F8 /* SublimeSocketInstaller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13853881175DA88200EA36F8 /* SublimeSocketInstallerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13853896175DA88200EA36F8 /* Build configuration list for PBXNativeTarget "SublimeSocketInstallerTests" */;
+			buildPhases = (
+				1385387D175DA88200EA36F8 /* Sources */,
+				1385387E175DA88200EA36F8 /* Frameworks */,
+				1385387F175DA88200EA36F8 /* Resources */,
+				13853880175DA88200EA36F8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13853887175DA88200EA36F8 /* PBXTargetDependency */,
+			);
+			name = SublimeSocketInstallerTests;
+			productName = SublimeSocketInstallerTests;
+			productReference = 13853882175DA88200EA36F8 /* SublimeSocketInstallerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1385385A175DA88200EA36F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "KISSAKI Inc,";
+			};
+			buildConfigurationList = 1385385D175DA88200EA36F8 /* Build configuration list for PBXProject "SublimeSocketInstaller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13853859175DA88200EA36F8;
+			productRefGroup = 13853863175DA88200EA36F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13853861175DA88200EA36F8 /* SublimeSocketInstaller */,
+				13853881175DA88200EA36F8 /* SublimeSocketInstallerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13853860175DA88200EA36F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13853870175DA88200EA36F8 /* InfoPlist.strings in Resources */,
+				13853876175DA88200EA36F8 /* Credits.rtf in Resources */,
+				1385387C175DA88200EA36F8 /* MainMenu.xib in Resources */,
+				1385389A175DAB8500EA36F8 /* icon2.png in Resources */,
+				1385389C175DAB8A00EA36F8 /* icon3.png in Resources */,
+				1385389E175DAC6E00EA36F8 /* arrow.png in Resources */,
+				138538A0175DAD0500EA36F8 /* Folder.png in Resources */,
+				138538A2175DBA8D00EA36F8 /* greenPoint.png in Resources */,
+				138538A8175DD8BD00EA36F8 /* redPoint.png in Resources */,
+				138538C2175DEA9900EA36F8 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1385387F175DA88200EA36F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1385388D175DA88200EA36F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13853880175DA88200EA36F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		138538BE175DE25E00EA36F8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/SublimeSocket\"\ncp -Rf \"$PROJECT_DIR/SublimeSocket\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/SublimeSocket\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1385385E175DA88200EA36F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13853872175DA88200EA36F8 /* main.m in Sources */,
+				13853879175DA88200EA36F8 /* AppDelegate.m in Sources */,
+				138538A6175DC7B800EA36F8 /* KSMessenger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1385387D175DA88200EA36F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13853890175DA88200EA36F8 /* SublimeSocketInstallerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13853887175DA88200EA36F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13853861175DA88200EA36F8 /* SublimeSocketInstaller */;
+			targetProxy = 13853886175DA88200EA36F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1385386E175DA88200EA36F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1385386F175DA88200EA36F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13853874175DA88200EA36F8 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13853875175DA88200EA36F8 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1385387A175DA88200EA36F8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1385387B175DA88200EA36F8 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1385388B175DA88200EA36F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1385388C175DA88200EA36F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13853891175DA88200EA36F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		13853892175DA88200EA36F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		13853894175DA88200EA36F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeSocketInstaller/SublimeSocketInstaller-Prefix.pch";
+				INFOPLIST_FILE = "SublimeSocketInstaller/SublimeSocketInstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13853895175DA88200EA36F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeSocketInstaller/SublimeSocketInstaller-Prefix.pch";
+				INFOPLIST_FILE = "SublimeSocketInstaller/SublimeSocketInstaller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13853897175DA88200EA36F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SublimeSocketInstaller.app/Contents/MacOS/SublimeSocketInstaller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeSocketInstaller/SublimeSocketInstaller-Prefix.pch";
+				INFOPLIST_FILE = "SublimeSocketInstallerTests/SublimeSocketInstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		13853898175DA88200EA36F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SublimeSocketInstaller.app/Contents/MacOS/SublimeSocketInstaller";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeSocketInstaller/SublimeSocketInstaller-Prefix.pch";
+				INFOPLIST_FILE = "SublimeSocketInstallerTests/SublimeSocketInstallerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1385385D175DA88200EA36F8 /* Build configuration list for PBXProject "SublimeSocketInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13853891175DA88200EA36F8 /* Debug */,
+				13853892175DA88200EA36F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13853893175DA88200EA36F8 /* Build configuration list for PBXNativeTarget "SublimeSocketInstaller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13853894175DA88200EA36F8 /* Debug */,
+				13853895175DA88200EA36F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		13853896175DA88200EA36F8 /* Build configuration list for PBXNativeTarget "SublimeSocketInstallerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13853897175DA88200EA36F8 /* Debug */,
+				13853898175DA88200EA36F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1385385A175DA88200EA36F8 /* Project object */;
+}
